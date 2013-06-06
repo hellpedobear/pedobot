@@ -896,17 +896,17 @@
     }
 
     dieCommand.prototype.init = function() {
-      this.command = '!adeus';
+      this.command = '!p00taria';
       this.parseType = 'exact';
       return this.rankPrivelege = 'mod';
     };
 
     dieCommand.prototype.functionality = function() {
-      API.sendChat("Acho que fui envenenado!");
+      API.sendChat("http://24.media.tumblr.com/b57b8afc307050934d9e5c3672c649b4/tumblr_mnx3bjLMM21qd5ic3o1_500.gif");
       undoHooks();
-      API.sendChat("Vish,");
+      API.sendChat("http://25.media.tumblr.com/e02240001491f942a771588555f2fe8b/tumblr_mnyfq911ZU1r00ibto1_500.gif");
       data.implode();
-      return API.sendChat("Morri! x_x");
+      return API.sendChat("http://24.media.tumblr.com/f92c9b611d679421f2919afe5fe84783/tumblr_mnwbwjxUiL1s7v2pao2_500.gif");
     };
 
     return dieCommand;
@@ -930,7 +930,7 @@
     reloadCommand.prototype.functionality = function() {
       var pupSrc;
 
-      API.sendChat('/me Não se Preocupe o Papai Chegou');
+      API.sendChat('/me Hell bot Recarregado !');
       undoHooks();
       pupSrc = data.pupScriptUrl;
       data.implode();
